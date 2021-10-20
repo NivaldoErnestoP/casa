@@ -1,0 +1,3 @@
+limitar y numero de id a limitar limit 4 100kbit
+block 3 y numero de id a bloquear
+free y numero id blokeado o limitado;

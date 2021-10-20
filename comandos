@@ -1,0 +1,8 @@
+npm start: local host react
+sudo create-react-app name
+------------------------------------------;
+sudo lsblk
+sudo mkfs.vfat -F 32 -n Nivaldo /dev/sdb
+sudo umount /dev/sdb
+-------------------------------------------;
+whereis php

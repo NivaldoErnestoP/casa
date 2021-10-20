@@ -1,0 +1,5 @@
+npm install mysql
+npm i express mysql morgan 
+npm install socket.io
+npm i nodemon -D
+ejecutar: npm run dev
